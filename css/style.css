@@ -1,0 +1,55 @@
+
+body{
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.main-body{
+    padding-top: 50px;
+    padding-bottom: 5%;
+}
+
+/* Chaining the selector here allows us to override
+bootstrap's default padding preferences. */
+.navbar-expand-lg.custom-navbar{
+    --bs-navbar-padding-x: 0.5rem;
+    --bs-navbar-padding-y: 0.5rem;
+}
+
+.custom-navbar{
+    color: white;   
+}
+
+.banner-bg img{
+    width: 80%;
+    border-radius: 50%;
+    transition: 0.25s;
+}
+
+.banner-bg img:hover{
+    border-radius: 25%;
+    width:90%;
+}
+
+.banner-bg{
+
+    /* For center alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* Background stuff */
+    padding: 0 20%; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60vh;
+
+    color: white;
+}
+
+.banner-bg h1{
+    font-weight: 900;
+    font-size: 5vw;
+}
+

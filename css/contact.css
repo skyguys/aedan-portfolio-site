@@ -1,50 +1,17 @@
 
-body{
-    overflow-x: hidden;
-    background-color: white;
-}
-
-.main-body{
-    padding-top: 50px;
-    padding-bottom: 5%;
-}
-
-/* Chaining the selector here allows us to override
-bootstrap's default padding preferences. */
-.navbar-expand-lg.custom-navbar{
-    --bs-navbar-padding-x: 0.5rem;
-    --bs-navbar-padding-y: 0.5rem;
-}
-
 .custom-navbar{
     background-color: rgb(156, 154, 141);
-    color: white;   
-
 }
 
-.contact-bg{
+.banner-bg{
 
-    /* For center alignment */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-
-    /* Background stuff */
-    padding: 0 20%; 
     background: linear-gradient( rgb(99, 97, 85), rgb(53, 44, 44) );
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 60vh;
-
-    color: white;
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    letter-spacing: -5px;
+    letter-spacing: -0.2rem;
 }
 
 .contact-bg h1{

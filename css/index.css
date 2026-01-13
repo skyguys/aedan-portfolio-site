@@ -1,56 +1,12 @@
 
-body{
-    overflow-x: hidden;
-    background-color: white;
-}
-
-.main-body{
-    padding-top: 50px;
-    padding-bottom: 5%;
-}
-
-/* Chaining the selector here allows us to override
-bootstrap's default padding preferences. */
-.navbar-expand-lg.custom-navbar{
-    --bs-navbar-padding-x: 0.5rem;
-    --bs-navbar-padding-y: 0.5rem;
-}
-
+/*File-specific styling*/
 .custom-navbar{
     background-color: rgb(141, 154, 156);
-    color: white;   
+
 }
 
-.home-bg img{
-    width: 80%;
-    border-radius: 50%;
-    transition: 0.25s;
-}
-
-.home-bg img:hover{
-    border-radius: 25%;
-    width:90%;
-}
-
-.home-bg{
-
-    /* For center alignment */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-
-    /* Background stuff */
-    padding: 0 20%; 
-    /* background-image: url("./../img/UCI-SIGNAGE-1600x960-1.jpg"); */
-    /* background: linear-gradient( rgb(85, 98, 99), rgb(44, 53, 52) ); */
+.banner-bg{
     background: linear-gradient( rgb(85, 98, 99), rgb(44, 53, 52) );
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 60vh;
-
-    color: white;
 }
 
 .data-box h1, .data-box h2{
@@ -82,7 +38,8 @@ bootstrap's default padding preferences. */
 }
 
 .data-box-contact{
-    padding-bottom: 2%;
+    padding: 1%;
+    margin-bottom: 1%;
     transition: 0.25s;
 }
 

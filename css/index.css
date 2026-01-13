@@ -19,12 +19,17 @@ bootstrap's default padding preferences. */
 .custom-navbar{
     background-color: rgb(141, 154, 156);
     color: white;   
-
 }
 
 .home-bg img{
     width: 80%;
     border-radius: 50%;
+    transition: 0.25s;
+}
+
+.home-bg img:hover{
+    border-radius: 25%;
+    width:90%;
 }
 
 .home-bg{
@@ -51,6 +56,7 @@ bootstrap's default padding preferences. */
 .data-box h1, .data-box h2{
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+    transition: 0.25s;
 }
 
 .data-box h1{
@@ -67,12 +73,22 @@ bootstrap's default padding preferences. */
     font-size: 5vw;
 }
 
+.data-box h1:hover, .data-box h2:hover{
+    transform: translateX(10px);
+}
+
 .data-box img{
     width: 20%;
 }
 
 .data-box-contact{
     padding-bottom: 2%;
+    transition: 0.25s;
+}
+
+.data-box-contact:hover{
+    transform: translateX(5px);
+    background-color: rgba(141, 154, 156, 0.5);
 }
 
 .data-box-contact a{

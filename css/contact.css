@@ -17,12 +17,12 @@ bootstrap's default padding preferences. */
 }
 
 .custom-navbar{
-    background-color: rgb(141, 156, 148);
+    background-color: rgb(156, 154, 141);
     color: white;   
 
 }
 
-.portfolio-bg{
+.contact-bg{
 
     /* For center alignment */
     display: flex;
@@ -35,7 +35,7 @@ bootstrap's default padding preferences. */
     padding: 0 20%; 
     /* background-image: url("./../img/UCI-SIGNAGE-1600x960-1.jpg"); */
     /* background: linear-gradient( rgb(85, 98, 99), rgb(44, 53, 52) ); */
-    background: linear-gradient( rgb(85, 99, 86), rgb(44, 53, 46) );
+    background: linear-gradient( rgb(99, 97, 85), rgb(53, 44, 44) );
     background-repeat: no-repeat;
     background-position: center center;
     height: 60vh;
@@ -43,53 +43,47 @@ bootstrap's default padding preferences. */
     color: white;
 }
 
-.portfolio-bg h1{
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: -5px;
+}
+
+.contact-bg h1{
     font-weight: 900;
     font-size: 5vw;
 }
 
-h1, h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-}
-
-h1{
-    letter-spacing: -5px;
-}
-
-h2{
-    letter-spacing: -3px;
+.body-content{
+    margin: 3% 25%;
 }
 
 
-.portfolio-content{
-    margin: 5% 20%;
+.data-box-contact img{
+    width: 10%;
 }
 
-.portfolio-content h1{
-    font-size: 3vw;
-    font-weight: 600;
+.data-box-contact{
+    padding: 1%;
+    transition: 0.5s;
 }
 
-.portfolio-content h2{
-    font-size: 2vw;
-    font-weight: 600;
+.data-box-contact:hover{
+    transform: translateX(5px);
+    background-color: rgba(156, 154, 141, 0.5);
 }
 
-.portfolio-content img{
-    width:100%;
+.data-box-contact a{
+    /* No text decoration because it overlaps with the image*/
+    color:rgb(44, 53, 52);
+    text-decoration: none;
 }
 
-.portfolio-content iframe{
+.form-content h6{
+    padding-top:1%;
+}
+
+.form-content textarea, input{
     width: 100%;
-    height: 100vh;
 }
 
-
-i{
-    font-size:5vw;
-}
-
-.tools{
-    text-align: center;
-}

@@ -1,0 +1,86 @@
+
+body{
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.main-body{
+    padding-top: 50px;
+    padding-bottom: 5%;
+}
+
+/* Chaining the selector here allows us to override
+bootstrap's default padding preferences. */
+.navbar-expand-lg.custom-navbar{
+    --bs-navbar-padding-x: 0.5rem;
+    --bs-navbar-padding-y: 0.5rem;
+}
+
+.custom-navbar{
+    background-color: rgb(141, 154, 156);
+    color: white;   
+
+}
+
+.home-bg img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.home-bg{
+
+    /* For center alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    /* Background stuff */
+    padding: 0 20%; 
+    /* background-image: url("./../img/UCI-SIGNAGE-1600x960-1.jpg"); */
+    /* background: linear-gradient( rgb(85, 98, 99), rgb(44, 53, 52) ); */
+    background: linear-gradient( rgb(85, 98, 99), rgb(44, 53, 52) );
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60vh;
+
+    color: white;
+}
+
+.data-box h1, .data-box h2{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.data-box h1{
+    letter-spacing: -5px;
+    line-height: 10vh;
+    font-size:100px;
+    font-size: 7.5vw;
+}
+
+.data-box h2{
+    letter-spacing: -5px;
+    line-height: 6vh;
+    font-size:100px;
+    font-size: 5vw;
+}
+
+.data-box img{
+    width: 20%;
+}
+
+.data-box-contact{
+    padding-bottom: 2%;
+}
+
+.data-box-contact a{
+    /* No text decoration because it overlaps with the image*/
+    color:rgb(44, 53, 52);
+    text-decoration: none;
+}
+
+.data-box{
+    padding: 5% 20% 0;
+}

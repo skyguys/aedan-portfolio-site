@@ -84,3 +84,7 @@ bootstrap's default padding preferences. */
 .data-box{
     padding: 5% 20% 0;
 }
+
+i{
+    font-size:5vw;
+}

@@ -1,0 +1,7 @@
+
+.fade-in{
+    /* For animation */
+    opacity: 0;
+    filter: blur(0.5rem);
+    transition: 0.75s;
+}

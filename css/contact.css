@@ -33,8 +33,6 @@ bootstrap's default padding preferences. */
 
     /* Background stuff */
     padding: 0 20%; 
-    /* background-image: url("./../img/UCI-SIGNAGE-1600x960-1.jpg"); */
-    /* background: linear-gradient( rgb(85, 98, 99), rgb(44, 53, 52) ); */
     background: linear-gradient( rgb(99, 97, 85), rgb(53, 44, 44) );
     background-repeat: no-repeat;
     background-position: center center;

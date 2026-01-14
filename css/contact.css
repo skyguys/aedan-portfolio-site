@@ -20,7 +20,7 @@ h1, h2{
 }
 
 .body-content{
-    margin: 3% 25%;
+    margin: 2.5% 25%;
 }
 
 .data-box-contact img{
@@ -51,3 +51,8 @@ h1, h2{
     width: 100%;
 }
 
+@media (max-width: 992px){
+    .body-content{
+        margin: 2.5% 10%;
+    }
+}

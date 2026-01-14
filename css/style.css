@@ -9,11 +9,18 @@ body{
     padding-top: 50px;
 }
 
-/* Chaining the selector here allows us to override
-bootstrap's default padding preferences. */
-.navbar-expand-lg.custom-navbar{
+/* Override bootstrap via ordering of CSS*/
+.custom-navbar{
     --bs-navbar-padding-x: 0.5rem;
     --bs-navbar-padding-y: 0.5rem;
+}
+
+.navbar-toggler{
+    border-color: transparent;
+}
+
+.navbar{
+    --bs-navbar-toggler-focus-width: 0rem;
 }
 
 .banner-bg img{

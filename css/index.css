@@ -55,7 +55,7 @@
 }
 
 .data-box{
-    padding: 5% 20% 0;
+    margin: 5% 20% 0;
 }
 
 .data-box iframe{
@@ -67,3 +67,8 @@ i{
     font-size:5vw;
 }
 
+@media (max-width: 992px){
+    .data-box{
+        margin: 2.5% 10%;
+    }
+}

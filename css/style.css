@@ -1,6 +1,7 @@
 
 body{
-    overflow-x: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: hidden; /* Hide vertical scrolling */
     background-color: white;
 }
 
@@ -14,11 +15,6 @@ bootstrap's default padding preferences. */
     --bs-navbar-padding-x: 0.5rem;
     --bs-navbar-padding-y: 0.5rem;
 }
-
-.custom-navbar{
-    color: white;   
-}
-
 
 .banner-bg img{
     width: 80%;
@@ -55,7 +51,6 @@ bootstrap's default padding preferences. */
 
 footer{
     padding: 1.5%;
-    /* font-weight: bold; */
     color: white;
     text-align: center;
 }

@@ -6,6 +6,7 @@ const num_images = 92;
 
 const banner = document.getElementsByClassName("banner-bg")[0];
 
+// From JS Documentation
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }

@@ -21,7 +21,6 @@ function createImages(){
 
     for (let i = 0; i < num_images; i++){
 
-
         // Create image object and add listener
         let img = document.createElement("img");
         img.addEventListener("click", function() { onClick(img)});

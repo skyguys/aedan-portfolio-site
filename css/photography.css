@@ -44,7 +44,6 @@ h1{
 /* Fixes issue with vertical images and makes entire image fit */
 /* Modal border and padding background are fixed through bootstrap classes */
 #modalImage {
-    max-width: 90vw;   
     max-height: 90vh;  
     width: auto;       
     height: auto;      

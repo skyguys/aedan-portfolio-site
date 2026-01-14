@@ -5,7 +5,6 @@
 }
 
 .banner-bg, footer{
-
     background-image: linear-gradient( rgba(85, 99, 86, 0.9), rgba(44, 53, 46, 0.9)) , url("./../img/portfolio.png");
     background-size: cover;
 }
@@ -22,7 +21,6 @@ h1{
 
 h2{
     letter-spacing: -0.1rem;
-
 }
 
 
@@ -31,23 +29,27 @@ h2{
 }
 
 .portfolio-content h1{
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 600;
 }
 
 .portfolio-content h2{
-    font-size: 2vw;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .portfolio-content h3{
-    font-size: 1vw;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 .portfolio-content img{
     width:100%;
     transition: 0.25s;
+    margin: 1%;
+}
+.portfolio-content li{
+    margin: 1%;
 }
 
 .portfolio-content img:hover{

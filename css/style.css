@@ -1,9 +1,9 @@
 
 body{
-    font-family: 'Courier New', Courier, monospace;
-    overflow-x: hidden; /* Hide vertical scrolling */
+    font-family: "JetBrains Mono", 'Courier New', Courier, monospace;
+    overflow-x: hidden; /* Hide horizontal scrolling */
     background-color: white;
-}
+}   
 
 .main-body{
     padding-top: 50px;
@@ -31,7 +31,6 @@ body{
 
 .banner-bg img{
     width: 70%;
-    /* height: 30vh; */
     border-radius: 50%;
     transition: 0.25s;
 }
@@ -39,7 +38,6 @@ body{
 .banner-bg img:hover{
     border-radius: 25%;
     width:80%;
-    /* height: 33vh; */
 }
 
 .banner-bg{
@@ -49,7 +47,6 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-
 
     /* Background stuff */
     padding: 0 20%; 
@@ -78,7 +75,6 @@ footer{
 @media (max-width: 992px){
     .banner-bg{
         padding: 0% 10%;
-        /* height: 50vh; */
     }
     
     .banner-bg img{
@@ -104,14 +100,6 @@ footer{
 
 
 @media (max-width: 576px){
-
-    /* .banner-bg img{
-        width:35%;
-    }
-
-    .banner-bg img:hover{
-        width:37.5%;
-    } */
 
     .banner-bg h1{
         font-size: 2.5rem;
